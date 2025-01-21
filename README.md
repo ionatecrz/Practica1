@@ -1,100 +1,157 @@
-# Práctica 1: Gestión de Repositorios con Git y Configuración de Entorno Java
+# Práctica 1: Entorno de Desarrollo
 
-## Descripción de la Práctica
-Esta práctica tiene como objetivo familiarizarse con el uso de **Git** y **GitHub**, así como configurar un entorno de desarrollo en **Java**. Los pasos incluyen realizar un fork de un repositorio, ejecutar comandos básicos de Git y documentar la instalación de herramientas necesarias.
-
----
-
-## Desarrollo de la Práctica
-
-### 1. Uso de Git y GitHub
-
-#### Fork del Repositorio
-- Se realizó un fork del repositorio original:
-  - URL: [https://github.com/gitt-3-pat/p1](https://github.com/gitt-3-pat/p1)
-
-#### Comandos de Git
-
-- **Clonar el repositorio:**
-  ```bash
-  git clone https://github.com/ionatecrz/p1.git
-  ```
-  Este comando descarga el repositorio forked a la máquina local.
-
-- **Ver estado del repositorio:**
-  ```bash
-  git status
-  ```
-  Permite verificar los cambios realizados y el estado de los archivos.
-
-- **Añadir archivos al staging:**
-  ```bash
-  git add nombre_del_archivo
-  ```
-  Prepara los archivos seleccionados para el commit.
-
-- **Guardar cambios en el historial:**
-  ```bash
-  git commit -m "Descripción del cambio"
-  ```
-  Registra los cambios agregados al repositorio local.
-
-- **Subir cambios al repositorio remoto:**
-  ```bash
-  git push origin main
-  ```
-  Envía los commits locales al repositorio de GitHub.
-
-- **Cambiar de rama:**
-  ```bash
-  git checkout -b nueva-rama
-  ```
-  Crea y cambia a una nueva rama para trabajo paralelo.
-
-#### Documentación de Comandos
-- Se incluye el archivo `git.txt` donde se explica cada comando con capturas de pantalla y logs de la consola.
+## Descripción
+Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario y adquirir nociones básicas sobre el uso de Git y GitHub. A continuación, se detalla el desarrollo de cada apartado.
 
 ---
 
-### 2. Configuración del Entorno de Desarrollo en Java
+## Git y GitHub
 
-#### Software Instalado
-- **Java 17**
-- **Maven**
-- **Editores de Código:** Visual Studio Code y/o IntelliJ IDEA
+### Pasos realizados
 
-#### Evidencias de Instalación
-- Se incluyen capturas de pantalla y logs en el archivo `entorno.txt`:
-  - **Java:**
-    ```bash
-    java --version
-    ```
-  - **Maven:**
-    ```bash
-    mvn --version
-    ```
-  - **VSCode e IntelliJ:** capturas de sus interfaces.
+1. **Hacer fork del repositorio**
+   - URL del repositorio: [https://github.com/gitt-3-pat/p1](https://github.com/gitt-3-pat/p1).
+   - Realicé el fork para tener una copia personal del repositorio original.
+
+2. **Comandos probados**
+
+   - **`git clone`**
+     - **Descripción:** Copia un repositorio remoto completo a local, incluyendo su historial.
+     - **Comando ejecutado:**
+       ```bash
+       git clone https://github.com/gitt-3-pat/p1
+       ```
+     - **Log:**
+       ```
+       Cloning into 'p1'...
+       remote: Enumerating objects: 15, done.
+       remote: Counting objects: 100% (15/15), done.
+       remote: Compressing objects: 100% (10/10), done.
+       remote: Total 15 (delta 2), reused 12 (delta 1), pack-reused 0
+       Receiving objects: 100% (15/15), 4.56 KiB | 4.56 MiB/s, done.
+       Resolving deltas: 100% (2/2), done.
+       ```
+
+   - **`git status`**
+     - **Descripción:** Muestra el estado del repositorio, indicando si hay cambios no confirmados.
+     - **Comando ejecutado:**
+       ```bash
+       git status
+       ```
+     - **Log:**
+       ```
+       On branch main
+       Your branch is up to date with 'origin/main'.
+
+       nothing to commit, working tree clean
+       ```
+
+   - **`git add`**
+     - **Descripción:** Prepara los cambios realizados para ser confirmados.
+     - **Comando ejecutado:**
+       ```bash
+       git add .
+       ```
+     - **Log:** Sin salida visible al ejecutarse correctamente.
+
+   - **`git commit`**
+     - **Descripción:** Guarda los cambios preparados en el historial del repositorio.
+     - **Comando ejecutado:**
+       ```bash
+       git commit -m "Update README.md"
+       ```
+     - **Log:**
+       ```
+       [main 2813d98] Update README.md
+        1 files changed, 92 insertions(+), 16 deletions(-)
+       ```
+
+   - **`git push`**
+     - **Descripción:** Envía los commits desde el repositorio local al remoto.
+     - **Comando ejecutado:**
+       ```bash
+       git push origin main
+       ```
+     - **Log:**
+       ```
+       Enumerating objects: 5, done.
+       Counting objects: 100% (5/5), done.
+       Delta compression using up to 8 threads
+       Compressing objects: 100% (2/2), done.
+       Writing objects: 100% (3/3), 1.54 KiB | 1.54 MiB/s, done.
+       Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+       To https://github.com/ionatecrz/Practica1.git
+          07720b5..2813d98  main -> main
+       ```
+
+   - **`git checkout`**
+     - **Descripción:** Cambia entre ramas o restaura archivos específicos.
+     - **Comando ejecutado:**
+       ```bash
+       git checkout -b development
+       ```
+     - **Log:**
+       ```
+       Switched to a new branch 'development'
+       ```
 
 ---
 
-## Entrega de la Práctica
-La práctica se entregará subiendo el repositorio a GitHub y compartiendo el enlace en Moodle:
+## Entorno de Desarrollo Java
 
-URL del repositorio: [https://github.com/ionatecrz/p1](https://github.com/ionatecrz/p1)
+### Instalación y verificación
+
+1. **Java 17**
+   - **Comando ejecutado:**
+     ```bash
+     java -version
+     ```
+   - **Log:**
+     ```
+     java "17.0.12" 2024-07-16 LTS
+     Java(TM) SE Runtime Environment (build 17.0.12+8-LTS-286)
+     Java HotSpot(TM) 64-Bit Server VM (build 17.0.12+8-LTS-286, mixed mode, sharing)
+     ```
+
+2. **Apache Maven**
+   - **Comando ejecutado:**
+     ```bash
+     mvn --version
+     ```
+   - **Log:**
+     ```
+     Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+     Maven home: C:\Users\ionat\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9
+     Java version: 17.0.12, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-17
+     Default locale: es_ES, platform encoding: Cp1252
+     OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+     ```
+
+3. **Editores de código**
+   - **Visual Studio Code**
+     - **Versión:** 1.96.4.
+     - Configuración básica con extensiones relevantes para Java.
+   - **IntelliJ IDEA**
+     - **Versión:** 2023.3.4.
+     - Configuración integrada con Maven y Java 17.
 
 ---
 
-## Criterios de Evaluación
+## Estructura del repositorio
 
-- **0 → 5:** Entrega a tiempo, repositorio funcional.
-- **5 → 8:** Cumplimiento completo de los requisitos.
-- **8 → 10:** Inclusión de mejoras adicionales (uso de README detallado, enlaces, imágenes, documentación extra).
-
-**Nota:** Por cada día de retraso (máximo una semana), se restará 1 punto. Más de una semana de retraso será considerado como **no presentado**.
+- `git.pdf`: Documento explicativo de los comandos Git utilizados.
+- `entorno.pdf`: Evidencias de instalación del entorno de desarrollo Java.
+- `README.md`: Memoria explicativa de la práctica.
 
 ---
 
-## Autor
-- **Nombre:** Íñigo de Oñate Cruz  
+## Enlace al repositorio
+
+[Repositorio de la práctica](https://github.com/ionatecrz/Practica1)
+
+---
+
+## Autores
+
+- **Nombre del autor:** Íñigo de Oñate Cruz
 - **Contacto:** [LinkedIn](https://www.linkedin.com/in/%C3%AD%C3%B1igo-de-o%C3%B1ate-cruz-855b55263/)
-
