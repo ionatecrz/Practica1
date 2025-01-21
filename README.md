@@ -3,7 +3,6 @@
 ## Descripción
 Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario y adquirir nociones básicas sobre el uso de Git y GitHub. A continuación, se detalla el desarrollo de cada apartado.
 
-
 ## Git y GitHub
 
 ### Pasos realizados
@@ -93,7 +92,6 @@ Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario
        Switched to a new branch 'development'
        ```
 
-
 ## Entorno de Desarrollo Java
 
 ### Instalación y verificación
@@ -132,13 +130,11 @@ Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario
      - **Versión:** 2023.3.4.
      - Configuración integrada con Maven y Java 17.
 
-
 ## Estructura del repositorio
 
-- `git.pdf`: Documento explicativo de los comandos Git utilizados.
-- `entorno.pdf`: Evidencias de instalación del entorno de desarrollo Java.
-- `README.md`: Memoria explicativa de la práctica.
-
+- [git.pdf](https://github.com/ionatecrz/Practica1/blob/main/git.pdf): Documento explicativo de los comandos Git utilizados.
+- [entorno.pdf](https://github.com/ionatecrz/Practica1/blob/main/entorno.pdf): Evidencias de instalación del entorno de desarrollo Java.
+- [README.md](https://github.com/ionatecrz/Practica1/blob/main/README.md): Memoria explicativa de la práctica.
 
 ## Enlace al repositorio
 
