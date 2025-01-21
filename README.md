@@ -11,7 +11,6 @@ Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario
 
 1. **Hacer fork del repositorio**
    - URL del repositorio: [https://github.com/gitt-3-pat/p1](https://github.com/gitt-3-pat/p1).
-   - Realicé el fork para tener una copia personal del repositorio original.
 
 2. **Comandos probados**
 
