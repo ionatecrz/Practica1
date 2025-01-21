@@ -140,8 +140,6 @@ Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario
 
 [Repositorio de la práctica](https://github.com/ionatecrz/Practica1)
 
----
-
 ## Autores
 
 - **Nombre del autor:** Íñigo de Oñate Cruz
