@@ -136,7 +136,7 @@ Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario
      - **Versión:** 2023.3.4.
      - Configuración integrada con Maven y Java 17.
 
-     (images/intellij_idea.png)
+     ![](images/intellij_idea.png)
 
 ## Estructura del repositorio
 
