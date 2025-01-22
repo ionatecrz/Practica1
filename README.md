@@ -141,6 +141,10 @@ Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario
 ## Estructura del repositorio
 
 - [images](https://github.com/ionatecrz/Practica1/blob/main/images): Carpeta con las imágenes del entorno de desarrollo Java.
+   - **`java_version.png`**
+   - **`maven_version.png`**
+   - **`vscode.png`**
+   - **`intellij_idea.png`**
 - [git.pdf](https://github.com/ionatecrz/Practica1/blob/main/git.pdf): Documento explicativo de los comandos Git utilizados.
 - [entorno.pdf](https://github.com/ionatecrz/Practica1/blob/main/entorno.pdf): Evidencias de instalación del entorno de desarrollo Java.
 - [README.md](https://github.com/ionatecrz/Practica1/blob/main/README.md): Memoria explicativa de la práctica.
