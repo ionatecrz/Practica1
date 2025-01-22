@@ -130,7 +130,7 @@ Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario
      - **Versión:** 1.96.4.
      - Configuración básica con extensiones relevantes para Java.
      
-     (images/vscode.png)
+     ![](images/vscode.png)
 
    - **IntelliJ IDEA**
      - **Versión:** 2023.3.4.
