@@ -108,6 +108,8 @@ Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario
      Java HotSpot(TM) 64-Bit Server VM (build 17.0.12+8-LTS-286, mixed mode, sharing)
      ```
 
+  !(images/java_version.png)
+
 2. **Apache Maven**
    - **Comando ejecutado:**
      ```bash
@@ -121,17 +123,24 @@ Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario
      Default locale: es_ES, platform encoding: Cp1252
      OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
      ```
+  !(images/maven_version.png)
 
 3. **Editores de código**
    - **Visual Studio Code**
      - **Versión:** 1.96.4.
      - Configuración básica con extensiones relevantes para Java.
+     
+     !(images/vscode.png)
+
    - **IntelliJ IDEA**
      - **Versión:** 2023.3.4.
      - Configuración integrada con Maven y Java 17.
 
+     !(images/intellij_idea.png)
+
 ## Estructura del repositorio
 
+- [images](https://github.com/ionatecrz/Practica1/blob/main/images): Carpeta con las imágenes del entorno de desarrollom Java.
 - [git.pdf](https://github.com/ionatecrz/Practica1/blob/main/git.pdf): Documento explicativo de los comandos Git utilizados.
 - [entorno.pdf](https://github.com/ionatecrz/Practica1/blob/main/entorno.pdf): Evidencias de instalación del entorno de desarrollo Java.
 - [README.md](https://github.com/ionatecrz/Practica1/blob/main/README.md): Memoria explicativa de la práctica.
