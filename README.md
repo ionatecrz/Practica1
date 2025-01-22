@@ -108,7 +108,7 @@ Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario
      Java HotSpot(TM) 64-Bit Server VM (build 17.0.12+8-LTS-286, mixed mode, sharing)
      ```
 
-   (images/java_version.png)
+     ![](images/java_version.png)
 
 2. **Apache Maven**
    - **Comando ejecutado:**
@@ -123,7 +123,7 @@ Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario
      Default locale: es_ES, platform encoding: Cp1252
      OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
      ```
-   (images/maven_version.png)
+     ![](images/maven_version.png)
 
 3. **Editores de código**
    - **Visual Studio Code**
