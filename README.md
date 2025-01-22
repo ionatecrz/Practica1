@@ -154,10 +154,6 @@ Esta práctica tiene como objetivo configurar el entorno de desarrollo necesario
 - [entorno.pdf](https://github.com/ionatecrz/Practica1/blob/main/entorno.pdf): Evidencias de instalación del entorno de desarrollo Java.
 - [README.md](https://github.com/ionatecrz/Practica1/blob/main/README.md): Memoria explicativa de la práctica.
 
-## Enlace al repositorio
-
-[Repositorio de la práctica](https://github.com/ionatecrz/Practica1)
-
 ## Autores
 
 - **Nombre del autor:** Íñigo de Oñate Cruz
